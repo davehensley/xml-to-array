@@ -1,0 +1,18 @@
+This is a very simple class to demonstrate basic XML parsing in
+PHP. It takes a string of XML data and converts it to an
+associative array (similar to json_decode($json_string, true)).
+There is much more functionality that could be added, but since
+I’m mostly working with JSON these days, I don’t know if or
+when I’ll find the time or the necessity.
+
+Usage is very simple:
+
+<?php
+  include 'xmlToArray.php';
+  $xml_data = file_get_contents('your_data.xml');
+  $xml_parser = new xmlToArray($xml_data);
+  print_r($xml_parser->array);
+?>
+
+I've included a sample XML file ("people.xml") which you can
+use for testing.

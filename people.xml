@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<people>
+ <person>
+  <name>Steve Jobs</name>
+  <occupation>CEO</occupation>
+ </person>
+ <person>
+  <name>Robin Williams</name>
+  <age>58</age>
+  <occupation>Comedian</occupation>
+  <occupation>Actor</occupation>
+ </person>
+ <person>
+  <name>Bob Dylan</name>
+  <name>Robert Zimmerman</name>
+  <occupation>Musician</occupation>
+  <age>68</age>
+ </person>
+</people>
